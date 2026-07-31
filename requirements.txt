@@ -1,0 +1,7 @@
+# Runtime dependencies of Macast plugins.
+# The macast host package is installed in editable mode from the sibling repo.
+-e ../Macast
+cherrypy
+requests
+pyperclip
+appdirs
